@@ -94,7 +94,7 @@ img {
     color: var(--color-brand);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
@@ -110,13 +110,16 @@ img {
     /* CONTENT WRAPPER */
     #content-wrapper {
         padding-left: var(--sidbar-width);
-    }
+    }  
+ 
 }
 
 /* BTN */
 .btn {
     padding: 12px 28px;
     font-weight: 700;
+    margin-bottom: 10px;
+    
 }
 
 .btn-brand {
